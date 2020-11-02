@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".customer.CustomerSettingActivity"
+    android:padding="20sp">
+
+    <ImageView
+        android:id="@+id/customerImage"
+        android:layout_marginBottom="20sp"
+        android:src="@mipmap/ic_guest_user"
+        android:layout_width="100sp"
+        android:layout_height="100sp"/>
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:background="@null"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:inputType="textPersonName"
+        android:hint="Enter Name"/>
+    <EditText
+        android:id="@+id/userPhone"
+        android:layout_width="match_parent"
+        android:background="@null"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:inputType="number"
+        android:hint="Enter Phone"/>
+    <EditText
+        android:id="@+id/car"
+        android:layout_width="match_parent"
+        android:background="@null"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:hint="Car"/>
+    <Button
+        android:id="@+id/cConfirm"
+        android:layout_width="match_parent"
+        android:text="Confirm"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/cBack"
+        android:layout_width="match_parent"
+        android:text="Back"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

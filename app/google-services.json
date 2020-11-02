@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "278103892614",
+    "firebase_url": "https://baxan-rideshare-e3ca4.firebaseio.com",
+    "project_id": "baxan-rideshare-e3ca4",
+    "storage_bucket": "baxan-rideshare-e3ca4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278103892614:android:091615c19606902979e707",
+        "android_client_info": {
+          "package_name": "com.example.rideshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278103892614-gm1unjjg4adui6bh0c3fdqn7rid58222.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rideshare",
+            "certificate_hash": "ef62c7765365721a7a49e386fa136d21b11108ac"
+          }
+        },
+        {
+          "client_id": "278103892614-puk8gdcjjphlm79287k1pgfimr0a6rcu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV0kObECYntPqQBw7WF8_A0DVuQFbMlvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278103892614-puk8gdcjjphlm79287k1pgfimr0a6rcu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

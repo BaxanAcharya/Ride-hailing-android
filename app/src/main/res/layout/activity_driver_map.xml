@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".driver.DriverMapActivity">
+
+
+    <Button
+        android:id="@+id/dlogout"
+        android:layout_width="wrap_content"
+        android:text="Logout"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/rSettings"
+        android:layout_gravity="end"
+        android:layout_width="wrap_content"
+        android:text="Settings"
+        android:layout_height="wrap_content"/>
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/customerInfo"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:background="@android:color/white"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/customerProfileImage"
+            android:src="@mipmap/ic_guest_user"
+            android:padding="20sp"
+            android:layout_width="100sp"
+            android:layout_height="100sp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/customerName"
+                android:paddingBottom="10sp"
+                android:paddingTop="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/customerPhone"
+                android:paddingBottom="10sp"
+                android:paddingTop="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
+
+
